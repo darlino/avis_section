@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+#avis200223 {
+  width: 100%;
+  background-color: #fff;
+}
+
+#avis200223 .review-container {
+  display: flex;
+  max-width: 1000px;
+  padding: 100px 150px 100px 150px;
+  flex-direction: column;
+}
+
+#avis200223 .header-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 8px;
+}
+#avis200223 .header-description {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#avis200223 .swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#avis200223 .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(199, 199, 199, 0.331);
+  padding: 20px 30px 20px 30px;
+}
+#avis200223 .swiper-slide:last-child {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px 30px 20px 30px;
+}
+
+#avis200223 .item {
+  color: rgb(209, 44, 14);
+  padding-left: 2px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#avis200223 .card-footer {
+  padding: 20px 0 20px;
+  color: rgb(209, 44, 14);
+  text-transform: uppercase;
+}
+
+#avis200223 .submit-btn {
+  padding: 10px;
+  width: 20%;
+  background-color: white;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 12px;
+  transition: ease 0.5s;
+  letter-spacing: 2px;
+}
+
+#avis200223 .submit-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 1100px) {
+  #avis200223 .review-container {
+    display: flex;
+    padding: 20px 30px 20px 30px;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  #avis200223 .row-wrapper {
+    padding: 20px;
+  }
+  #avis200223 .submit-btn {
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+  }
+
+  #avis200223 .swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
